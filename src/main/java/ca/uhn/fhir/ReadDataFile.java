@@ -14,7 +14,7 @@ public class ReadDataFile {
 
 		
 		try {
-			InputStream resourceAsStream = getClass().getResourceAsStream("../../../Names.txt");
+			InputStream resourceAsStream = getClass().getResourceAsStream("Names.txt");
 			if(resourceAsStream != null) {
 				list = new ArrayList<String>();
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(resourceAsStream));
